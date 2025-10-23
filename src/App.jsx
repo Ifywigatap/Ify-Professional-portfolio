@@ -72,8 +72,8 @@ export default function App() {
         <nav className="section py-4">
           <div className="flex items-center justify-between">
             <NavLink to="/" className="text-xl font-semibold flex items-center gap-2">
-              <img src="/replacelogo.jpeg" alt="IfyWigaTechz Academy Logo" className="h-10 w-10 rounded-sm object-contain" />
-              <span className="text-primary">Isu Ifeanyichukwu</span>
+              <img src="/Ifylogo.png" alt="IfyWigaTechz Academy Logo" className="h-10 w-10 rounded-sm object-contain" />
+              <span className="text-primary">IFYWIGATECHZ GLOBAL SERVICES</span>
             </NavLink>
 
             <div className="hidden md:flex items-center gap-6 brand-link">

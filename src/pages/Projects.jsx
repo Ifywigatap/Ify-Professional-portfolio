@@ -6,7 +6,7 @@ const Card = ({ title, desc, link }) => (
 )
 export default function Projects() {
   const items = [
-    { title: "Wigatech Academy", desc: "Educational platform and landing pages.", link: "https://ifywigatechz-academy.vercel.app/" },
+    { title: "WigaTechz Academy", desc: "Educational platform and landing pages.", link: "https://ifywigatechz-academy.vercel.app/" },
     { title: "KingLaw Paradise Builders", desc: "Construction company site on Live Production.", link: "https://www.kinglawparadisebuilders.com/" },
     { title: "De Prince Plumbers", desc: "Plumbing construction site with gallery and CTA.", link: "https://nwabest-plumbers.vercel.app/" },
     { title: "Fidel Technology Concept LTD", desc: "Tiling site with gallery and CTA.", link: "https://fidel-technology-concept-ltd.vercel.app/" },

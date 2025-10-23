@@ -2,7 +2,7 @@ import { useState } from 'react'
 import PaystackButton from '../components/PaystackButton'
 export default function Enroll() {
   const [email, setEmail] = useState('')
-  const [amount, setAmount] = useState(5000)
+  const [amount, setAmount] = useState(100000)
   return (
     <section className="section max-w-xl">
       <h2 className="text-3xl font-bold mb-6 bg-clip-text text-transparent brand-accent">Enroll / Book a Session</h2>

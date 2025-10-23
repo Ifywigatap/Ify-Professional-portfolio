@@ -1,7 +1,7 @@
-export default function PaystackButton({ email = '', amount = 5000, reference }) {
+export default function PaystackButton({ email = '', amount = 100000, reference }) {
   const handlePay = () => {
     const handler = window.PaystackPop && window.PaystackPop.setup({
-      key: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY || 'pk_test_xxxxxxxxxxxxxxxx',
+      key: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY || 'pk_live_69f04a2dfeb908b3c45e239639db4c9783aa46b9',
       email,
       amount: Math.round(amount) * 100,
       currency: 'NGN',

@@ -3,15 +3,15 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Isu Ifeanyichukwu Oko — Full-Stack Developer & UI/UX</title>
+        <title>IFYWIGATECHZ Global Services</title>
         <meta name='description' content='Portfolio, blog, and learning hub by Ify Wigatap (Wigatech Academy).'/>
         <meta property='og:title' content='Ify Wigatap — Portfolio'/>
-        <meta property='og:image' content='/logo.jpg'/>
+        <meta property='og:image' content='/Ifylogo.png'/>
       </Helmet>
       <section className="section grid md:grid-cols-2 gap-10 items-center">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight bg-clip-text text-transparent brand-accent">
-            Isu Ifeanyichukwu Oko — Full-Stack(MREN) Developer, UI/UX Designer &
+            IFYWIGATECHZ GLOBAL SERVICES — Full-Stack(MREN) Developer, UI/UX Designer &
             Digital Creator
           </h1>
           <p className="text-white text-lg">
@@ -36,6 +36,12 @@ export default function Home() {
             </li>
             <li className="p-4 rounded-xl border brand-border">
               <p className="text-3xl font-bold">Payments</p><p className="text-gray text-sm">Paystack</p>
+            </li>
+            <li className="p-4 rounded-xl border brand-border">
+              <p className="text-3xl font-bold">Patent Medicine Store</p><p className="text-gray text-sm">Over The Counter(meds)</p>
+            </li>
+            <li className="p-4 rounded-xl border brand-border">
+              <p className="text-3xl font-bold">Real E-State Agent</p><p className="text-gray text-sm">Purchase/sales of lands, Renting/selling of houses, Within Asa/Ndoki</p>
             </li>
           </ul>
         </div>
